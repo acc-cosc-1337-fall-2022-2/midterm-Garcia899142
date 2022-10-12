@@ -1,2 +1,3 @@
-//
-bool test_config();
+#include <string>
+
+int get_factorial_sequence(int num);

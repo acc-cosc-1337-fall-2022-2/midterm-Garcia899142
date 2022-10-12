@@ -8,5 +8,9 @@ TEST_CASE("Verify Test Configuration", "verification") {
 
 TEST_CASE("test")
 {
-	REQUIRE(test_config() == true);
+	REQUIRE(int_to_hex(10) == "a");
+	REQUIRE(int_to_hex(170) == "aa");
+	REQUIRE(int_to_hex(255) == "ff");
+
+
 }
